@@ -9,10 +9,10 @@
 menu:
   # Home: / || fas fa-home
    Articles||fas fa-tree:
-     Archives: /archives/ || fas fa-archive
+     "": /archives/ || fas fa-archive
      Tags: /tags/ || fas fa-tags
      Categories: /categories/ || fas fa-folder-open
-   碩碩: /evan/ || fas fa-heart
+   "": /evan/ || fas fa-heart
 
 #   List||fas fa-list:
 #     Music: /music/ || fas fa-music
@@ -249,7 +249,8 @@ addThis:
 # Share.js
 # https://github.com/overtrue/share.js
 sharejs:
-  enable: true
+  enable: false
+#  sites: facebook,twitter,wechat,weibo,qq
   sites: facebook,twitter,wechat,weibo,qq
 
 # AddToAny
@@ -977,25 +978,25 @@ footer_beautify:
   bdageitem:
     - link: https://hexo.io/ #徽标指向网站链接
       shields: https://img.shields.io/badge/Frame-Hexo-blue?style=flat&logo=hexo #徽标API
-      message: 博客框架为Hexo_v5.4.0 #徽标提示语
+      message: 框架为Hexo_v5.4.0 #徽标提示语
     - link: https://butterfly.js.org/
       shields: https://img.shields.io/badge/Theme-Butterfly-6513df?style=flat&logo=bitdefender
-      message: 主题版本Butterfly_v3.8.2
+      message: 主题Butterfly_v3.8.2
     - link: https://www.jsdelivr.com/
       shields: https://img.shields.io/badge/CDN-jsDelivr-orange?style=flat&logo=jsDelivr
-      message: 本站使用JsDelivr为静态资源提供CDN加速
+      message: 使用JsDelivr為靜態資源提供CDN加速
 #    - link: https://vercel.com/
 #      shields: https://img.shields.io/badge/Hosted-Vercel-brightgreen?style=flat&logo=Vercel
 #      message: 本站采用双线部署，默认线路托管于Vercel
 #    - link: https://vercel.com/
 #      shields: https://img.shields.io/badge/Hosted-Coding-0cedbe?style=flat&logo=Codio
 #      message: 本站采用双线部署，联通线路托管于Coding
-    - link: https://github.com/VHCC
-      shields: https://img.shields.io/badge/Source-Github-d021d6?style=flat&logo=GitHub
-      message: 本站项目由Gtihub托管
+#    - link: https://github.com/VHCC
+#      shields: https://img.shields.io/badge/Source-Github-d021d6?style=flat&logo=GitHub
+#      message: 項目由Gtihub託管
     - link: http://creativecommons.org/licenses/by-nc-sa/4.0/
       shields: https://img.shields.io/badge/Copyright-BY--NC--SA%204.0-d42328?style=flat&logo=Claris
-      message: 本站采用知识共享署名-非商业性使用-相同方式共享4.0国际许可协议进行许可
+      message: 本站採用知識共享署名-非商業性使用-相同方式共享4.0國際許可協議進行許可
   swiper_css: https://cdn.jsdelivr.net/npm/hexo-butterfly-swiper/lib/swiper.min.css
   swiper_js: https://cdn.jsdelivr.net/npm/hexo-butterfly-swiper/lib/swiper.min.js
   swiperbdage_init_js: https://cdn.jsdelivr.net/npm/hexo-butterfly-footer-beautify/lib/swiperbdage_init.min.js
